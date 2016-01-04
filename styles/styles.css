@@ -1,0 +1,16 @@
+
+
+
+#kitten-btn {
+  content: "";
+  cursor: pointer;
+  background: url("../images/logo.png");
+  width: 40px;
+  
+}
+
+
+
+.my-cats .btn {
+  cursor: pointer;
+}

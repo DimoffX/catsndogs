@@ -1,0 +1,41 @@
+<div class="modal my-cats">
+
+   
+    <div class="modal-dialog">
+    <div class="modal-header">
+      <h1 class="modal-title">Cats 'N Dogs</h1>
+     
+    </div>
+    <div class="modal-body">
+      <div class="text-center my-cat">
+        <img id="the-cat" src="http://thecatapi.com/api/images/get?format=src&type=gif">
+      </div>
+      <script>
+      
+      jQuery(function($) {
+        $(".my-cats #cat-refresh").click(function() {
+
+          $("#the-cat").attr("src", "http://thecatapi.com/api/images/get?format=src&type=gif&rand=" + Math.random() * 9999);
+          
+        })
+        $(".my-cats #dog-refresh").click(function() {
+          var dogN = Math.floor(Math.random() * (146 - 1) + 1);
+
+          $("#the-cat").attr("src", "http://www.doggifpage.com/gifs/"+dogN+".gif");
+
+        })
+  
+        
+      })
+      
+      </script>
+    </div>
+    <div class="modal-footer">
+      <button id="cat-refresh" class="btn btn-success">Load A New Cat</button>
+      <button id="dog-refresh" class="btn btn-success">Load A New Dog</button>
+    </div>
+    <p class="text-center">
+      Ivan Dimov
+    </p>
+  </div>
+  </div>
