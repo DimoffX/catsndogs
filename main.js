@@ -11,11 +11,7 @@ define(function (require, exports, module) {
 
   iconService.init();
   iconService.click(function () {
-    setTimeout(function() {
-      Dialogs.showModalDialogUsingTemplate(view);
-    },500)
-
-    
+      Dialogs.showModalDialogUsingTemplate(view, true);
   });
 
 });
