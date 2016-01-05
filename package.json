@@ -3,7 +3,7 @@
   "title": "Kitten Cat Dog Gifs for Relaxation",
   "description": "This extension adds an icon in the right menu that allows you to see as many cat and dog gifs as you want whenever coding becomes overwhelming",
   "homepage": "https://github.com/DimoffX/catsndogs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Ivan Dimov <Ivan@dimoff.biz> (http://dimoff.biz)",
   "license": "MIT",
   "engines": {
